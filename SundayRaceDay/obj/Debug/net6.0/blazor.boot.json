@@ -2,7 +2,7 @@
   "cacheBootResources": true,
   "config": [ ],
   "debugBuild": true,
-  "entryAssembly": "BlazorApp1",
+  "entryAssembly": "SundayRaceDay",
   "icuDataMode": 0,
   "linkerEnabled": false,
   "resources": {
@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
-      "BlazorApp1.dll": "sha256-2UMaLG1AkdmCzM7XsISfjgxdI\/paljdTvRBGkGdlnG0="
+      "SundayRaceDay.dll": "sha256-L2w+ReRV0i25umrpbu3yiAOmOP8+FHgsVWaBHQH2F2M="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorApp1.pdb": "sha256-4jnG2\/ZhmSERLZjX1pQ3ysX3ZzOxPxEF8N7YyddtqF8="
+      "SundayRaceDay.pdb": "sha256-2tSLopJbbSBhc2rdcGJOI59EJmLl9usSNFpbkHmYqy0="
     },
     "runtime": {
       "dotnet.6.0.8.5s9aj6jenm.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",
