@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
-      "SundayRaceDay.dll": "sha256-L2w+ReRV0i25umrpbu3yiAOmOP8+FHgsVWaBHQH2F2M="
+      "SundayRaceDay.dll": "sha256-NmqdTDCgkZGC4xh\/5XiOC52fB7fxp2LYvThKaNp5C7E="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "SundayRaceDay.pdb": "sha256-2tSLopJbbSBhc2rdcGJOI59EJmLl9usSNFpbkHmYqy0="
+      "SundayRaceDay.pdb": "sha256-7sA9IiTzYSTUfWyJ1XrDFO2gGHOZ1rJTe1q+vuDOjXs="
     },
     "runtime": {
       "dotnet.6.0.8.5s9aj6jenm.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

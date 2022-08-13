@@ -22,12 +22,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PCrummey/source/repos/sundayRaceday/SundayRaceDay/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/PCrummey/source/repos/sundayRaceday/SundayRaceDay/Pages/CreateRace.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUmFjZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PCrummey/source/repos/sundayRaceday/SundayRaceDay/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Users/PCrummey/source/repos/sundayRaceday/SundayRaceDay/Pages/CreateSeries.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlU2VyaWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PCrummey/source/repos/sundayRaceday/SundayRaceDay/Pages/Index.razor]

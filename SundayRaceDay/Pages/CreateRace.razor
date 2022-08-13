@@ -1,0 +1,31 @@
+﻿@page "/createrace"
+@using SundayRaceDay.Models.ViewModels
+@using SundayRaceDay.Services.Interfaces
+@inject IRaceService _RaceService
+
+<PageTitle>Race</PageTitle>
+
+<h1>Race</h1>
+
+<button class="btn btn-primary" @onclick="Create">Click me</button>
+
+
+@if(race != null){
+    <p>
+        <ul>
+            <li>Race Status: @race?.Status</li>
+            <li>Race Track: @race?.Track.TrackType</li>
+        </ul>
+    </p>
+}
+
+
+@code {
+    private Race race = null;
+    private ElementReference racedetails;
+
+    private async Task Create()
+    {
+        race = await _RaceService.Get(1);
+    }
+}
