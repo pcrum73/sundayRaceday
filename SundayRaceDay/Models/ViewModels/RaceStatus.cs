@@ -1,4 +1,4 @@
-﻿namespace SundayRaceDay
+﻿namespace SundayRaceDay.Models.ViewModels
 {
     public enum RaceStatus
     {

@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SundayRaceDay", "SundayRaceDay\SundayRaceDay.csproj", "{8091778B-1A73-4C60-B1F4-7EFE2F1F3478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SundayRaceDay", "SundayRaceDay\SundayRaceDay.csproj", "{8091778B-1A73-4C60-B1F4-7EFE2F1F3478}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SundayRaceDayApi", "SundayRaceDayApi\SundayRaceDayApi.csproj", "{30F18313-49F8-45CB-9437-9C19AF4FE5ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SundayRaceDay.ServiceLibrary", "SundayRaceDay.ServiceLibrary\SundayRaceDay.ServiceLibrary.csproj", "{624AD439-D12E-4D32-BD11-2C0ABB58B82A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3952849-BE54-43B8-B67C-D8B9C17EF219}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,14 @@ Global
 		{8091778B-1A73-4C60-B1F4-7EFE2F1F3478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8091778B-1A73-4C60-B1F4-7EFE2F1F3478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8091778B-1A73-4C60-B1F4-7EFE2F1F3478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F18313-49F8-45CB-9437-9C19AF4FE5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F18313-49F8-45CB-9437-9C19AF4FE5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F18313-49F8-45CB-9437-9C19AF4FE5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F18313-49F8-45CB-9437-9C19AF4FE5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624AD439-D12E-4D32-BD11-2C0ABB58B82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624AD439-D12E-4D32-BD11-2C0ABB58B82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624AD439-D12E-4D32-BD11-2C0ABB58B82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624AD439-D12E-4D32-BD11-2C0ABB58B82A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

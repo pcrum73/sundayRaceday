@@ -1,12 +1,15 @@
 {
   "cacheBootResources": true,
-  "config": [ ],
+  "config": [
+    "appsettings.json"
+  ],
   "debugBuild": true,
   "entryAssembly": "SundayRaceDay",
   "icuDataMode": 0,
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "DnsClient.dll": "sha256-pqqUK\/nxzj7PtSwp8HNcVX1ULYXRKP+ym0hhLNYpjsk=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-UrVyaila4UaM9NG7wgfD9o+ih1r3xt3rq4W7Z+SCE3w=",
       "Microsoft.AspNetCore.Components.dll": "sha256-8yq2GCAfNZmhru8HZW\/xr9jDHwAS+MD4B1GGQFzi2Pg=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-I5BEosbTOX5zg7agqWZo14z3aViOJYbMCWeRLInDYiQ=",
@@ -29,6 +32,11 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-WobL+r2zwB5FBTgS20yduagPN9b5O9KB59h+n2+ONDo=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-kyP+B3x4SLKMAQWP1uHn9V4Q5p3r69HPLhs8C3yxGMU=",
+      "MongoDB.Bson.dll": "sha256-THCO379YUidEeJRJeXy3uqV5+YKfHzK3w6zZ1yGlWy4=",
+      "MongoDB.Driver.dll": "sha256-2\/gR+nYatz1wmMPKNWHxiMGp0gs4a9gB+c6Ieyt\/t\/0=",
+      "MongoDB.Driver.Core.dll": "sha256-ZUXjFiE2mJU8SO6C3F3Nd9z6uq04rgtcjrYYiHkwTGE=",
+      "MongoDB.Libmongocrypt.dll": "sha256-4H3N41tnvRRR4TSQsb1f4KunF31i3uwrQilZaZo9Zaw=",
+      "SharpCompress.dll": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
       "Microsoft.CSharp.dll": "sha256-Vo5Bb9oKq\/YrTGtwWhkxZbzLWoZKzjh+s6iqjyc9u4E=",
       "Microsoft.VisualBasic.Core.dll": "sha256-Cjnk9nhvTRWXb8mKeE9rfD87wFEF7Y78d3dLDbrTd58=",
@@ -196,13 +204,13 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
-      "SundayRaceDay.dll": "sha256-NmqdTDCgkZGC4xh\/5XiOC52fB7fxp2LYvThKaNp5C7E="
+      "SundayRaceDay.dll": "sha256-UQi6NHTS4k7mavXQcKtufgyR0eYbCtei0YZcxJ+PHF8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "SundayRaceDay.pdb": "sha256-7sA9IiTzYSTUfWyJ1XrDFO2gGHOZ1rJTe1q+vuDOjXs="
+      "SundayRaceDay.pdb": "sha256-EZesXuF2U9qqkhDPPx8fMgaGOvYdyzx5R+HsD2zDaXU="
     },
     "runtime": {
       "dotnet.6.0.8.5s9aj6jenm.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

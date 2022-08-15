@@ -11,6 +11,7 @@
 
 
 @if(race != null){
+    <h3>Race #@race.RaceNumber Created</h3>
     <p>
         <ul>
             <li>Race Status: @race?.Status</li>
@@ -26,6 +27,6 @@
 
     private async Task Create()
     {
-        race = await _RaceService.Get(1);
+        race = await _RaceService.Create();
     }
 }

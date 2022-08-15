@@ -6,6 +6,6 @@ namespace SundayRaceDay.Services.Interfaces
     {
         Task<Race> Get(long raceId);
         Task<List<Race>> GetAll(long seriesId);
-        Task<Race> Create(Track track, List<Restriction> restrictions);
+        Task<Race> Create(Track track = null, List<Restriction> restrictions = null);
     }
 }

@@ -9,8 +9,9 @@ namespace SundayRaceDay.Models.ViewModels
         public Track Track { get; set; }
         public List<Restriction> Restrictions { get; set; }
         public RaceStatus Status { get; set; }
+        public long RaceNumber { get; set; }
 
-        public Race()
+        public Race(long raceNumber)
         {
             Stats = new List<Stat>();
             Drivers = new List<Driver>();
@@ -20,9 +21,10 @@ namespace SundayRaceDay.Models.ViewModels
             {
                  TrackType = TrackType.Street
             };
+            RaceNumber = raceNumber;
         }
-        public Race(Track track = null, List<Restriction> restrictions = null)
-            :this()
+        public Race(long raceNumber, Track track = null, List<Restriction> restrictions = null)
+            :this(raceNumber)
         {
             if (track != null)
             {
